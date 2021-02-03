@@ -5,7 +5,6 @@ import StartScreen from './screens/StartScreen';
 import GameScreen from './screens/GameScreen';
 import GameOverScreen from './screens/GameOverScreen'
 
-
 export default function App() {
  const [userNumber,setUserNumber] = useState();
  const [guessRounds,setGuessRounds] = useState(0);
@@ -39,7 +38,6 @@ export default function App() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
  screen:{
    flex:1, 
